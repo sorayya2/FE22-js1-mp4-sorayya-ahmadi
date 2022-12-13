@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 840px;
+  }
+  
+  section {
+    padding:0px;
+    height: 840px;
+  
+    background: url(https://hediyeistegi.com/wp-content/uploads/2021/01/lavanta-1536x960.jpg);
+   
+  }
+  
+  .photo1 {
+    padding:30px;
+    height: 60px;
+    position: absolute;
+    bottom: -14px;
+    left: 60px;
+    }
+
+  
+  .photo2 {
+    padding:30px;
+    height: 60px;
+    position: absolute;
+    bottom: -90px;
+    left: 60px;
+  
+  }
+  
+  
+  .photo3 {
+    padding:30px;
+    height: 60px;
+    position: absolute;
+    bottom: -180px;
+    left: 60px;
+  
+  }
+
+  #container {
+    width: 100px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(254, 249, 249);
+    position: absolute;
+    top: 150px;
+    left: 60px;
+  
+  }
+  
+  button {
+  cursor: pointer;
+    width: 80px;
+    height: 55px;
+    border-radius: 15px;
+    font-size: 1em;
+    
+  
+  }
+  
+  
+  
+#buttonContainer {
+   
+ position: relative;   
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+padding-top: 3rem;    
+  
+  }
+  
+
+
+  #play {
+    background-color: rgb(160, 157, 157);
+    transition: all 300ms ease-in-out;
+  }
+  
+  #play:hover {
+    transform: scale(1.1);
+    background-color: rgb(127, 78, 251);
+  }
+  
+  #pause {
+    background-color: rgb(160, 157, 157);
+    transition: all 300ms ease-in-out;
+   
+  }
+  
+  #pause:hover {
+    transform: scale(1.1);
+    background-color:rgb(127, 78, 251);
+  }
+  
+  #stop {
+    background-color: rgb(160, 157, 157);
+    transition: all 300ms ease-in-out;
+  }
+  
+  #stop:hover {
+    transform: scale(1.1);
+    background-color: rgb(127, 78, 251);
+  }
